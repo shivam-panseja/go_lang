@@ -1,0 +1,30 @@
+package main
+
+import "fmt"
+
+// using short declaration and function name
+
+// func main () {
+// 	name := "Shivam"
+// 	age := 20
+// 	city := "Chandigarh"
+
+// 	fmt.Println("name", name)
+// 	fmt.Println("age", age)
+// 	fmt.Println("city", city)
+// }
+
+func main () {
+	var name string
+	var gender string
+
+	fmt.Println("Enter your name please ..")
+	fmt.Println("Please enter your gender")
+
+	fmt.Scan(&name)
+	fmt.Scan(&gender)
+
+	fmt.Println("Welcome Mr.", name)
+	fmt.Println("I am", gender)
+
+}
